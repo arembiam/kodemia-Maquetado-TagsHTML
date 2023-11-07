@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Soni Aguirre"/>
+        <title>Etiquetas HTML</title>
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+
+        <H1>Etiquetas de HTML</H1>
+        <nav class="menu">
+          <a href="#S1">&lt!--...-- &gt</a>|
+           <a href="#S2">&lt!DOCTYPE&gt</a>|
+           <a href="#S3">&lta&gt</a>|
+           <a href="#S4">&ltcite&gt</a>|
+           <a href="#S5">&ltembed&gt</a>|
+           <br>
+           <a href="#S6">&lth1&gt - &lth6&gt</a>|
+           <a href="#S7">&ltlink&gt</a>|
+           <a href="#S8">&ltnav&gt</a>| 
+           <a href="#S9">&ltpre&gt</a>|
+           <a href="#S10">&ltsection&gt</a>|
+        </nav>
+
+
+
+        <section id="S1">
+            <div class="textContainer">
+                <h3>&lt!--...-- &gt</h3>
+                <p class="parrafo">Se usa para insertar comentarios en el código. Estos no se muestran en los navegadores. Es útil para explicar el código y poder retomar esto al hacer ediciones posteriores.</p> 
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        &lt!--This is a comment. Comments are not displayed in the browser--&gt
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S2">
+            <div class="textContainer">
+                <h3>&lt!DOCTYPE&gt</h3>
+                <p class="parrafo">La declaración<code>&lt!DOCTYPE&gt</code>define el tipo de documento que es. Todos los documentos HTML deben de empezar con esta declaración. Esta es información para que el navegador sepa que tipo de documento es.</p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        &lt!DOCTYPE html&gt
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S3">
+            <div class="textContainer">
+                <h3>&lta&gt</h3>
+                <p class="parrafo">Define un hipervínculo o liga y se usa para ir de una página web a otra. El elemento más importante de la sintaxis de esta etiqueta es<code>&lthref&gt</code>que indica el destino.<br>Por default los links aparecen en los navegadores con el siguiente formato:
+                    <ul class="textList">
+                        <li>Subrayado en azul para no visitado</li>
+                        <li>Subrayado en morado para visitado</li>
+                        <li>Subrayado en rojo para activo</li>
+                    </ul>
+                </p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        &lta href="https://www.w3schools.com">Visit W3Schools.com!&lt/a&gt
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S4">
+            <div class="textContainer">
+                <h3>&ltcite&gt</h3>
+                <p class="parrafo">La etiqueta<code>&ltcite&gt</code> es usada para definir el título de una obra (libro, poema, canción, pintura,etc) El texto aparece formateado en<i>italicas</i>.
+                </p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        &ltp&gt&ltcite&gtThe Scream&lt/cite&gt by Edward Munch. Painted in 1893.&lt/p&gt
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S5">
+            <div class="textContainer">
+                <h3>&ltembed&gt</h3>
+                <p class="parrafo">La etiqueta<code>&ltembed&gt</code> un contenedor para un recurso externo como una página web, una imagen, un reproductor de audio/video o un plug-in.</p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                       &ltembed type="image/jpg" src="example.jpg" width="300" height="200"&gt
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S6">
+            <div class="textContainer">
+                <h3>&lth1&gt - &lth6&gt</h3>
+                <p class="parrafo">Estas etiquetas son usadas para definir encabezados, siendo h1 el encabezado o título con mayor jerarquía y tamaño hasta llegar al h6 siendo el que tiene menor tamaño.</p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                       <p>&lth1&gtThis is heading 1&lt/h1&gt</p>
+                       <p>&lth2&gtThis is heading 2&lt/h2&gt</p> 
+                       <p>&lth3&gtThis is heading 3&lt/h3&gt</p> 
+                       <p>&lth4&gtThis is heading 4&lt/h4&gt</p>
+                       <p>&lth5&gtThis is heading 5&lt/h5&gt</p>
+                       <p>&lth6&gtThis is heading 6&lt/h6&gt</p>
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S7">
+            <div class="textContainer">
+                <h3>&ltlink&gt</h3>
+                <p class="parrafo">La etiqueta<code>&ltlink&gt</code>define la relación entre el documento actual y un recurso externo.  Es usada frecuentemente para ligar una hoja de estilos CSS o añadir un favicon al sitio web. Es una etiqueta que solo contiene atributos.</p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        <p>&lthead&gt</p>
+                        <p>&ltlink rel="stylesheet" href="styles.css"&gt</p>
+                        <p>&lt/head&gt</p>
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S8">
+            <div class="textContainer">
+                <h3>&ltnav&gt</h3>
+                <p class="parrafo">La etiqueta <code>&ltnav&gt</code> define un set de ligas de navegación. No todos las ligas de navegación deben de ser incluidas en esta etiqueta solamente los bloques principales.</p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        <p>&ltnav&gt</p>
+                        <p>&lta href="/html/">HTML&lt/a&gt |</p>
+                        <p>&lt/nav&gt</p>
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S9">
+            <div class="textContainer">
+                <h3>&ltpre&gt</h3>
+                <p class="parrafo">La etiqueta<code>&ltpre&gt</code>define un texto con un formato predefinido, es decir que tal cual como aparece en el documento HTML es como se va a mostrar. </p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        &ltpre&gt
+                        <p>Lorem ipsumdolor</p>
+                        <p>sit      amet </p>
+                        <p>consectetur </p>
+                        &lt/pre&gt
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section id="S10">
+            <div class="textContainer">
+                <h3>&ltsection&gt</h3>
+                <p class="parrafo">Define una sección dentro de un documento.</p>
+                <p class="txtExample">Ejemplo de uso</p>
+                <div code class="codeExample">
+                    <code class="codeExample">
+                        <p>&ltsection&gt</p>
+                        <p>&lth2&gtLorem ipsum&lt/h2&gt</p>
+                        <p>&ltp&gtLorem ipsum dolor sit amet consectetur, adipisicing elit. Aut beatae ex quis voluptatum, alias, cupiditate vero temporibus tenetur modi perferendis iure accusantium quisquam mollitia labore, vitae cum debitis error hic?&lt/p&gt</p>
+                        <p>&lt/section&gt</p>
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        
+    </body> 
+</html>
